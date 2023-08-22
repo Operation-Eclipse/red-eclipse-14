@@ -12,3 +12,8 @@
         - FactorySimpleCircuit
         - FactoryBasicCasing
         - FactoryMetalBlade
+    - type: MaterialStorage
+      whitelist:
+        tags:
+          - FactoryPart
+          - Sheet

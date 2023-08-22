@@ -16,3 +16,8 @@
         - FactoryMedicalPart
         - FactoryInjector
         - FactoryChemicalPack
+    - type: MaterialStorage
+      whitelist:
+        tags:
+          - FactoryPart
+          - Sheet
