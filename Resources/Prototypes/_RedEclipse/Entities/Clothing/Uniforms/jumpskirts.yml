@@ -22,6 +22,17 @@
 
 - type: entity
   parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtGreytideCommanderFormalLongcoat
+  name: greytide commander's formal longcoat
+  description: A greytide commander's longcoat, looking at it is making you feel like you could rule the world.
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpskirt/greytide-commander-formal-longcoat.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpskirt/greytide-commander-formal-longcoat.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtDarkGreytide
   name: dark greytide jumpskirt
   description: A dark greytide soldier's jumpskirt, looking at it is making you feel stealthy.

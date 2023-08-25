@@ -24,15 +24,15 @@
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
-  id: ClothingHeadHelmetHardsuitGreytideAlt
+  id: ClothingHeadHelmetHardsuitGreytideJudge
   noSpawn: true
   name: greytide hardsuit helmet
   description: Armored hardsuit helmet for greytide needs.
   components:
   - type: Sprite
-    sprite: _RedEclipse/Clothing/Head/Hardsuits/greytide-alt.rsi
+    sprite: _RedEclipse/Clothing/Head/Hardsuits/greytide-judge.rsi
   - type: Clothing
-    sprite: _RedEclipse/Clothing/Head/Hardsuits/greytide-alt.rsi
+    sprite: _RedEclipse/Clothing/Head/Hardsuits/greytide-judge.rsi
   - type: PointLight
     color: "#ffeead"
   - type: PressureProtection
