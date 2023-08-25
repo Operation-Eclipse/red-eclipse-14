@@ -11,7 +11,7 @@
 
 - type: entity
   parent: ClothingHeadBaseButcherable
-  id: ClothingHeadHatGreytide
+  id: ClothingHeadHatGreytideFlipped
   name: greytide cap
   description: "GreyTide militia cap, strikes fear."
   components:
