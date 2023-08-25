@@ -1,0 +1,17 @@
+- type: entity
+  parent: Airlock
+  id: AirlockGreytide
+  suffix: Greytide
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Structures/Doors/Airlocks/Standard/greytide.rsi
+
+- type: entity
+  parent: AirlockGlass
+  id: AirlockGreytideGlass
+  suffix: Greytide
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Structures/Doors/Airlocks/Glass/greytide.rsi
+  - type: PaintableAirlock
+    group: Glass
