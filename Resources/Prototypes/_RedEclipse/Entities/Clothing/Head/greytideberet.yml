@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHeadBaseButcherable
+  id: ClothingHeadHatGreytideBeret
+  name: greytide beret
+  description: "GreyTide militia beret, strikes fear."
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/Head/Hats/greytide-beret.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/Head/Hats/greytide-beret.rsi
