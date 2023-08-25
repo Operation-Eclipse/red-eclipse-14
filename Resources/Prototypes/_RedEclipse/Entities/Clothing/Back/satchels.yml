@@ -1,8 +1,0 @@
-- type: entity
-  parent: ClothingBackpackSatchel
-  id: ClothingBackpackSatchelGreytide
-  name: greytide satchel
-  description: A robust satchel for violence related needs.
-  components:
-  - type: Sprite
-    sprite: _RedEclipse/Clothing/Back/Satchels/greytide.rsi
