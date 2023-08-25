@@ -5,7 +5,7 @@
   description: It's a very grey backpack.
   components:
   - type: Sprite
-    sprite: _RedEclipse/Clothing/Back/Backpacks/greytide.rsi
+    sprite: _RedEclipse/Clothing/Back/Greytide/backpack.rsi
 
 - type: entity
   parent: ClothingBackpackSatchel
@@ -14,7 +14,7 @@
   description: A robust satchel for violence related needs.
   components:
   - type: Sprite
-    sprite: _RedEclipse/Clothing/Back/Backpacks/greytide.rsi
+    sprite: _RedEclipse/Clothing/Back/Greytide/satchel.rsi
 
 - type: entity
   parent: ClothingBackpackGreytide
@@ -23,4 +23,4 @@
   description: A large duffel bag for holding extra greytide related goods.
   components:
   - type: Sprite
-    sprite: _RedEclipse/Clothing/Back/Backpacks/greytide.rsi
+    sprite: _RedEclipse/Clothing/Back/Greytide/duffle.rsi
