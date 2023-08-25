@@ -8,7 +8,6 @@
     sprite: _RedEclipse/Clothing/Eyes/Glasses/greytideglasses.rsi
   - type: Clothing
     sprite: _RedEclipse/Clothing/Eyes/Glasses/greytideglasses.rsi
-#  - type: FlashImmunity # hehe oops no flash immmunity :godo:
   - type: EyeProtection
     protectionTime: 5
   - type: Tag
