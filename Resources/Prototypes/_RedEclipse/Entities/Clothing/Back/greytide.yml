@@ -5,7 +5,7 @@
   description: It's a very grey backpack.
   components:
   - type: Sprite
-    sprite: _RedEclipseClothing/Back/Backpacks/greytide.rsi
+    sprite: _RedEclipse/Clothing/Back/Backpacks/greytide.rsi
 
 - type: entity
   parent: ClothingBackpackSatchel
