@@ -13,6 +13,7 @@
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatGreytideFlipped
   name: greytide cap
+  suffix: flipped
   description: "GreyTide militia cap, strikes fear."
   components:
   - type: Sprite
