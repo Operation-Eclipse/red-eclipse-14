@@ -5,9 +5,9 @@
   description: A greatcoat enhanced with a special alloy for some extra protection and style for those with a commanding presence.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Coats/hos_trenchcoat.rsi
+    sprite: _RedEclipse/Clothing/OuterClothing/Coats/greytide-commander.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Coats/hos_trenchcoat.rsi
+    sprite: _RedEclipse/Clothing/OuterClothing/Coats/greytide-commander.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -28,7 +28,7 @@
   - type: Sprite
     sprite: _RedEclipse/Clothing/OuterClothing/Coats/greytide-judge.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Coats/greytide-judge.rsi
+    sprite: _RedEclipse/Clothing/OuterClothing/Coats/greytide-judge.rsi
   - type: Armor
     modifiers:
       coefficients:
