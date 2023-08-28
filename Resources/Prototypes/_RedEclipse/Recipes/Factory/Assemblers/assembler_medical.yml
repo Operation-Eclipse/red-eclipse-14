@@ -4,7 +4,7 @@
   result: StorageImplanter
   completetime: 1
   materials: # TODO better recipe
-    FactoryBasicCasing : 1
+    FactoryBasicCasings : 1
     FactoryInjectors: 1
 
 - type: latheRecipe

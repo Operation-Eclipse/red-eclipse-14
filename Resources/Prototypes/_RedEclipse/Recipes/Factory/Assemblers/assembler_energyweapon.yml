@@ -25,7 +25,7 @@
   result: WeaponMakeshiftLaser
   completetime: 1
   materials: # TODO better recipe
-    FactoryBasicCasing: 1
+    FactoryBasicCasings: 1
     FactoryLaserComponents: 1
 
 - type: latheRecipe
