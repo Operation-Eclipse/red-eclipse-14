@@ -66,14 +66,14 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitDarkGreytide
-  name: dark greytide jumpsuit
-  description: A dark greytide soldier's jumpsuit, looking at it is making you feel stealthy.
+  id: ClothingUniformJumpsuitJuggernaut
+  name: juggernaut jumpsuit
+  description: A juggernaut's jumpsuit, rip and tear boys, rip and tear.
   components:
   - type: Sprite
-    sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/dark-greytide.rsi
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/juggernaut.rsi
   - type: Clothing
-    sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/dark-greytide.rsi
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/juggernaut.rsi
 
 - type: entity
   parent: ClothingUniformBase
