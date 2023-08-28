@@ -9,6 +9,7 @@
         FactoryWeaponCompactBody: 1
     - type: Stack
       stackType: FactoryWeaponCompactBody
+      count: 1
 
 - type: entity
   parent: MaterialFactoryWeaponCompactBody
@@ -27,7 +28,7 @@
   name: factory compact body
   icon: { sprite: /Textures/Objects/Misc/monkeycube.rsi, state: cube } # placeholder
   spawn: FactoryWeaponCompactBody
-  maxCount: 5
+  maxCount: 1
   itemSize: 1
 
 - type: material

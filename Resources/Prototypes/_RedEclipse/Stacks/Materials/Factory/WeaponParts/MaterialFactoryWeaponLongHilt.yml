@@ -9,6 +9,7 @@
         FactoryWeaponLongHilt: 1
     - type: Stack
       stackType: FactoryWeaponLongHilt
+      count: 1
 
 - type: entity
   parent: MaterialFactoryWeaponLongHilt
@@ -27,7 +28,7 @@
   name: long hilt
   icon: { sprite: /Textures/Objects/Misc/monkeycube.rsi, state: cube } # placeholder
   spawn: FactoryWeaponLongHilt
-  maxCount: 5
+  maxCount: 1
   itemSize: 1
 
 - type: material

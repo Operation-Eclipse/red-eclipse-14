@@ -9,6 +9,7 @@
         FactoryTimingComponents: 1
     - type: Stack
       stackType: FactoryTimingComponents
+      count: 1
     - type: Sprite
       sprite: Objects/Devices/timer.rsi
       state: timer
@@ -32,7 +33,7 @@
   name: factory timing components
   icon: { sprite: Objects/Devices/timer.rsi, state: timer }
   spawn: FactoryTimingComponent
-  maxCount: 5
+  maxCount: 1
   itemSize: 1
 
 - type: material

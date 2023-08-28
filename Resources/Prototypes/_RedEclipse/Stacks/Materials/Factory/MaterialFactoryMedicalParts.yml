@@ -9,6 +9,7 @@
         FactoryMedicalParts: 1
     - type: Stack
       stackType: FactoryMedicalParts
+      count: 3
 
 - type: entity
   parent: MaterialFactoryMedicalParts
@@ -27,7 +28,7 @@
   name: factory medical parts
   icon: { sprite: /Textures/Objects/Misc/monkeycube.rsi, state: cube } # placeholder
   spawn: FactoryMedicalPart
-  maxCount: 5
+  maxCount: 3
   itemSize: 1
 
 - type: material

@@ -9,6 +9,7 @@
         FactoryWeaponMediumBody: 1
     - type: Stack
       stackType: FactoryWeaponMediumBody
+      count: 1
 
 - type: entity
   parent: MaterialFactoryWeaponMediumBody
@@ -27,7 +28,7 @@
   name: factory medium body
   icon: { sprite: /Textures/Objects/Misc/monkeycube.rsi, state: cube } # placeholder
   spawn: FactoryWeaponMediumBody
-  maxCount: 5
+  maxCount: 1
   itemSize: 1
 
 - type: material

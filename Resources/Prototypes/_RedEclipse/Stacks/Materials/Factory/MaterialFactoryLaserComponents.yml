@@ -9,6 +9,7 @@
         FactoryLaserComponents: 1
     - type: Stack
       stackType: FactoryLaserComponents
+      count: 3
 
 - type: entity
   parent: MaterialFactoryLaserComponents
@@ -27,7 +28,7 @@
   name: factory laser components
   icon: { sprite: /Textures/Objects/Misc/monkeycube.rsi, state: cube } # placeholder
   spawn: FactoryLaserComponent
-  maxCount: 5
+  maxCount: 3
   itemSize: 1
 
 - type: material

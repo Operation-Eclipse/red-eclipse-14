@@ -35,23 +35,7 @@
   result: FactoryMedicalPart
   completetime: 3
   materials: # TODO better recipe
-    Steel : 100
+    Plastic : 200
     FactoryBasicCasings : 1
     FactorySimpleCircuits : 1
 
-- type: latheRecipe
-  id: FactoryInjector
-  result: FactoryInjector
-  completetime: 3
-  materials: # TODO better recipe
-    FactoryBasicCasings : 1
-    FactorySimpleCircuits : 1
-    FactoryMachineryParts : 1
-    FactoryMedicalParts: 1
-
-- type: latheRecipe
-  id: FactoryChemicalPack
-  result: FactoryChemicalPack
-  completetime: 3
-  materials: # TODO way better recipe (waaaaay better)
-    Steel : 100

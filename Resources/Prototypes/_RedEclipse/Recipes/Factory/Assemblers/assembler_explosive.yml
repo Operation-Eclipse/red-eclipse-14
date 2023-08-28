@@ -53,24 +53,3 @@
   materials:
     FactoryTimingComponents: 1
     FactoryExplosivePayloads: 1
-
-- type: latheRecipe
-  id: FactoryChinaLake
-  result: WeaponLauncherChinaLake
-  completetime: 1
-  materials: # TODO better recipe
-    FactoryBasicParts : 1
-
-- type: latheRecipe
-  id: FactoryFragGrenade
-  result: GrenadeFrag
-  completetime: 1
-  materials: # TODO better recipe
-    FactoryBasicParts : 1
-
-- type: latheRecipe
-  id: FactoryBlastGrenade
-  result: GrenadeBlast
-  completetime: 1
-  materials: # TODO better recipe
-    FactoryBasicParts : 1

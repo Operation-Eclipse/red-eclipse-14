@@ -3,68 +3,100 @@
   id: FactoryMk58
   result: WeaponPistolMk58
   completetime: 1
-  materials: # TODO better recipe
-    FactoryBasicParts : 1
+  materials:
+    FactoryWeaponCompactBody: 1
+    FactoryWeaponGunBarrel: 1
 
 - type: latheRecipe
   id: FactoryCobra
   result: WeaponPistolCobra
   completetime: 1
-  materials: # TODO better recipe
-    FactoryBasicParts : 1
-
-- type: latheRecipe
-  id: FactoryMakeshiftLaserPistol
-  result: WeaponMakeshiftLaser
-  completetime: 1
-  materials: # TODO better recipe
-    FactoryBasicParts : 1
-
-- type: latheRecipe
-  id: FactoryLaserPistol
-  result: WeaponLaserGun
-  completetime: 1
-  materials: # TODO better recipe
-    FactoryBasicParts : 1
+  materials:
+    FactoryWeaponCompactBody: 1
+    FactoryWeaponGunBarrel: 1
 
 - type: latheRecipe
   id: FactoryDoubleBarreledShotgun
   result: WeaponShotgunDoubleBarreled
   completetime: 1
-  materials: # TODO better recipe
-    FactoryBasicParts : 1
+  materials:
+    FactoryWeaponGunStock: 1
+    FactoryWeaponGunBarrel: 2 #would you believe it?
 
 - type: latheRecipe
   id: FactoryAKMS
   result: WeaponRifleAk
   completetime: 1
-  materials: # TODO better recipe
-    FactoryBasicParts : 1
+  materials:
+    FactoryWeaponMediumBody: 1
+    FactoryWeaponGunStock: 1
+    FactoryWeaponGunBarrel: 1
+    FactoryMachineryParts: 1
+    FactoryBasicCasings: 1
 
 - type: latheRecipe
   id: FactoryC20r
   result: WeaponSubMachineGunC20r
   completetime: 1
-  materials: # TODO better recipe
-    FactoryBasicParts : 1
+  materials:
+    FactoryWeaponMediumBody: 1
+    FactoryWeaponGunStock: 1
+    FactoryWeaponGunBarrel: 1
 
 - type: latheRecipe
   id: FactoryL6Saw
   result: WeaponLightMachineGunL6
   completetime: 1
-  materials: # TODO better recipe
-    FactoryBasicParts : 1
+  materials:
+    FactoryWeaponHeavyBody: 1
+    FactoryWeaponGunStock: 1
+    FactoryWeaponGunBarrel: 1
+    FactoryBasicCasings: 2
+    FactoryMachineryParts: 1
 
 - type: latheRecipe
   id: FactoryBulldog
   result: WeaponShotgunBulldog
   completetime: 1
   materials: # TODO better recipe
-    FactoryBasicParts : 1
+    FactoryWeaponMediumBody: 1
+    FactoryWeaponGunStock: 1
+    FactoryWeaponGunBarrel: 1
 
 - type: latheRecipe
   id: FactoryHristov
   result: WeaponSniperHristov
   completetime: 1
   materials: # TODO better recipe
-    FactoryBasicParts : 1
+    FactoryWeaponHeavyBody: 1
+    FactoryWeaponGunStock: 1
+    FactoryWeaponGunBarrel: 2
+    FactoryBasicCasings: 2
+    FactoryMachineryParts: 1
+
+- type: latheRecipe
+  id: FactoryChinaLake
+  result: WeaponLauncherChinaLake
+  completetime: 1
+  materials: # TODO better recipe
+    FactoryWeaponHeavyBody: 1
+    FactoryWeaponGunStock: 1
+    FactoryWeaponGunBarrel: 2
+    FactoryBasicCasings: 2
+    FactoryMachineryParts: 1
+
+- type: latheRecipe
+  id: FactoryFragGrenade
+  result: GrenadeFrag
+  completetime: 1
+  materials: # TODO better recipe
+    FactoryBasicCasings: 1
+    FactoryExplosivePayloads: 1
+
+- type: latheRecipe
+  id: FactoryBlastGrenade
+  result: GrenadeBlast
+  completetime: 1
+  materials: # TODO better recipe
+    FactoryBasicCasings: 1
+    FactoryExplosivePayloads: 1

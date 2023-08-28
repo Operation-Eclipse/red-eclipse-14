@@ -10,7 +10,7 @@
         FactoryExplosiveTinyBombs: 1
     - type: Stack
       stackType: FactoryExplosiveTinyBombs
-      count: 3
+      count: 1
     - type: Sprite
       sprite: _RedEclipse/Objects/Weapons/Explosives/tinybomb.rsi
       state: icon
@@ -73,7 +73,7 @@
   name: factory explosive tiny bombs
   icon: { sprite: _RedEclipse/Objects/Weapons/Explosives/tinybomb.rsi, state: icon }
   spawn: FactoryExplosiveTinyBomb
-  maxCount: 3
+  maxCount: 1
   itemSize: 1
 
 - type: material
