@@ -52221,7 +52221,7 @@ entities:
     - pos: -28.597761,19.353106
       parent: 1
       type: Transform
-- proto: FactoryEnergyBladeAssembler
+- proto: FactoryEnergyWeaponAssembler
   entities:
   - uid: 3327
     components:
