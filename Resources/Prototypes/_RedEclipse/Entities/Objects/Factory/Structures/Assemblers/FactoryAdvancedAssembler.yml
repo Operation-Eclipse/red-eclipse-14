@@ -14,5 +14,3 @@
         - FactoryExplosivePayload
         - FactoryTimingComponent
         - FactoryMedicalPart
-        - FactoryInjector
-        - FactoryChemicalPack
