@@ -9,9 +9,7 @@
       board: FactoryMedicalAssemblerMachineCircuitboard
     - type: Lathe
       staticRecipes:
-        - FactoryMacroBombImplanter
         - FactoryStorageImplanter
-        - FactoryFreedomImplanter
         - FactoryHypopenBox
-        - FactorySyndicateSmokesPacket
-        - FactoryStimpack
+        - FactoryInjector
+        - FactoryChemicalPack

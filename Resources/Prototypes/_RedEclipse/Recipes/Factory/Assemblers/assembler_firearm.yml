@@ -85,18 +85,3 @@
     FactoryBasicCasings: 2
     FactoryMachineryParts: 1
 
-- type: latheRecipe
-  id: FactoryFragGrenade
-  result: GrenadeFrag
-  completetime: 1
-  materials: # TODO better recipe
-    FactoryBasicCasings: 1
-    FactoryExplosivePayloads: 1
-
-- type: latheRecipe
-  id: FactoryBlastGrenade
-  result: GrenadeBlast
-  completetime: 1
-  materials: # TODO better recipe
-    FactoryBasicCasings: 1
-    FactoryExplosivePayloads: 1
