@@ -8,7 +8,7 @@
     - type: Machine
       board: FactoryMedicalAssemblerMachineCircuitboard
     - type: Lathe
-      staticRecipes:
+      dynamicRecipes:
         - FactoryStorageImplanter
         - FactoryHypopenBox
         - FactoryInjector

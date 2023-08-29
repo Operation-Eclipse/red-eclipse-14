@@ -8,7 +8,7 @@
     - type: Machine
       board: FactoryGearAssemblerMachineCircuitboard
     - type: Lathe
-      staticRecipes:
+      StaticRecipes:
         - FactoryShoulderHolster
         - FactoryStealthBox
         - FactoryWebVest

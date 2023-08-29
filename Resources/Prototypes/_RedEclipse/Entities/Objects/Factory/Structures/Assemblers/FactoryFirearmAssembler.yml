@@ -9,9 +9,10 @@
       board: FactoryFirearmAssemblerMachineCircuitboard
     - type: Lathe
       staticRecipes:
+        - FactoryDoubleBarreledShotgun
+      dynamicRecipes:
         - FactoryMk58
         - FactoryCobra
-        - FactoryDoubleBarreledShotgun
         - FactoryAKMS
         - FactoryC20r
         - FactoryL6Saw

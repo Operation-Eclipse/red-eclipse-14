@@ -1,0 +1,227 @@
+# Tier 1
+
+- type: technology
+  id: SalvageWeapons
+  name: research-technology-salvage-weapons
+  icon:
+    sprite: Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 1
+  cost: 5000
+  recipeUnlocks:
+  - WeaponProtoKineticAccelerator
+  - WeaponCrusher
+  - WeaponCrusherDagger
+
+- type: technology
+  id: BasicPartManufacturing
+  name: Basic Contraband Parts
+  icon:
+    sprite: Objects/Misc/monkeycube.rsi
+    state: cube
+  discipline: Arsenal
+  tier: 1
+  cost: 2500
+  recipeUnlocks:
+  - FactorySimpleCircuit
+  - FactoryBasicCasing
+  - FactoryMetalBlade
+
+- type: technology
+  id: BasicWeaponParts
+  name: Basic Weapon Part manufacturing
+  icon:
+    sprite: Objects/Misc/monkeycube.rsi
+    state: cube
+  discipline: Arsenal
+  tier: 1
+  cost: 2500
+  recipeUnlocks:
+  - FactoryWeaponCompactBody
+  - FactoryWeaponGunBarrel
+  - FactoryWeaponGunStock
+  - FactoryWeaponShortHilt
+  - FactoryMk58
+
+- type: technology
+  id: BasicExplosives
+  name: Basic Explosive manufacturing
+  icon:
+    sprite: Objects/Misc/monkeycube.rsi
+    state: cube
+  discipline: Arsenal
+  tier: 1
+  cost: 5000
+  recipeUnlocks:
+  - FactoryEMPGrenade
+  - FactoryExplosiveGrenade
+  - FactoryExplodingPen
+  - FactoryTinybomb
+  - FactoryFragGrenade
+  - FactoryBlastGrenade
+
+# Tier 2
+- type: technology
+  id: AdvancedPartManufacturing
+  name: Advanced Part Manufacturing.
+  icon:
+    sprite: Objects/Misc/monkeycube.rsi
+    state: cube
+  discipline: Arsenal
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - FactoryMachineryPart
+  - FactoryChemicalPack
+  - FactoryTimingComponent
+
+- type: technology
+  id: AdvancedLaserManipulation
+  name: research-technology-advanced-laser-manipulation
+  icon:
+    sprite: Objects/Weapons/Guns/Battery/advancedlasergun.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - FactoryLaserComponent
+  - FactoryMakeshiftLaserPistol
+  - FactoryLaserPistol
+
+- type: technology
+  id: ExplosiveTechnology
+  name: research-technology-explosive-technology
+  icon:
+    sprite: Objects/Devices/payload.rsi
+    state: payload-explosive-armed
+  discipline: Arsenal
+  tier: 2
+  cost: 7500
+  recipeUnlocks:
+  - Signaller
+  - SignalTrigger
+  - VoiceTrigger
+  - TimerTrigger
+  - FlashPayload
+  - ExplosivePayload
+  - FactoryExplosivePayload
+
+- type: technology
+  id: AdvancedWeaponParts
+  name: Advanced Weapon Part manufacturing
+  icon:
+    sprite: Objects/Misc/monkeycube.rsi
+    state: cube
+  discipline: Arsenal
+  tier: 2
+  cost: 5000
+  recipeUnlocks:
+  - FactoryWeaponMediumBody
+  - FactoryWeaponHeavyBody
+  - FactoryWeaponLongHilt
+  - FactoryCobra
+  - FactoryAKMS
+  - FactoryC20r
+  - FactoryBulldog
+
+- type: technology
+  id: AdvancedExplosives
+  name: Advanced Explosive manufacturing
+  icon:
+    sprite: Objects/Misc/monkeycube.rsi
+    state: cube
+  discipline: Arsenal
+  tier: 2
+  cost: 5000
+  recipeUnlocks:
+  - FactoryC4
+  - FactoryMinibomb
+  - FactoryChinaLake
+  - FactoryExplosiveBananaPeel
+  - FactoryExplosiveWetFloorSign
+
+- type: technology
+  id: MedicalManufacturing
+  name: Advanced Medical manufacturing
+  icon:
+    sprite: Objects/Misc/monkeycube.rsi
+    state: cube
+  discipline: Arsenal
+  tier: 2
+  cost: 5000
+  recipeUnlocks:
+  - FactoryHypopenBox
+  - FactoryStorageImplanter
+  - FactoryMedicalPart
+  - FactoryInjector
+
+- type: technology
+  id: EnergyWeaponry
+  name: Energy Weaponry Manufacturing
+  icon:
+    sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 2
+  cost: 5000
+  recipeUnlocks:
+  - FactoryEnergySword
+  - FactoryEnergyDagger
+  - FactoryDoubleBladedEnergySword
+
+# Tier 3
+
+- type: technology
+  id: DraconicMunitions
+  name: research-technology-draconic-munitions
+  icon:
+    sprite: Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
+    state: incendiarydisplay
+  discipline: Arsenal
+  tier: 3
+  cost: 10000
+  recipeUnlocks:
+  - ShellShotgunIncendiary
+  - CartridgePistolIncendiary
+  - CartridgeMagnumIncendiary
+  - CartridgeLightRifleIncendiary
+  - CartridgeRifleIncendiary
+  - MagazineBoxPistolIncendiary
+  - MagazineBoxMagnumIncendiary
+  - MagazineBoxLightRifleIncendiary
+  - MagazineBoxRifleIncendiary
+
+- type: technology
+  id: ConcentratedLaserWeaponry
+  name: research-technology-concentrated-laser-weaponry
+  icon:
+    sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 3
+  cost: 7500
+  recipeUnlocks:
+  - WeaponLaserCannon
+  - WeaponAdvancedLaser
+  - WeaponLaserCarbine
+
+- type: technology
+  id: UltraWeaponry
+  name: Ultra Weaponry Manufacturing
+  icon:
+    sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 3
+  cost: 15000
+  recipeUnlocks:
+  - WeaponLaserCannon
+  - WeaponAdvancedLaser
+  - WeaponXrayCannon
+  - FactoryL6Saw
+  - FactoryHristov
+
+
+

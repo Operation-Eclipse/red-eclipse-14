@@ -7,7 +7,7 @@
     - type: Machine
       board: FactoryExplosiveAssemblerMachineCircuitboard
     - type: Lathe
-      staticRecipes:
+      dynamicRecipes:
         - FactoryEMPGrenade
         - FactoryExplosiveGrenade
         - FactoryExplodingPen

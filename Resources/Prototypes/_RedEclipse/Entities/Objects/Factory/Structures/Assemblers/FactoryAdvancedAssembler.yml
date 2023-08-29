@@ -8,7 +8,7 @@
     - type: Machine
       board: FactoryAdvancedAssemblerMachineCircuitboard
     - type: Lathe
-      staticRecipes:
+      dynamicRecipes:
         - FactoryMachineryPart
         - FactoryLaserComponent
         - FactoryExplosivePayload

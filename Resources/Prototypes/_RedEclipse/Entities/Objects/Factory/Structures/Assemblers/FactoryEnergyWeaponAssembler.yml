@@ -8,7 +8,7 @@
     - type: Machine
       board: FactoryEnergyWeaponAssemblerMachineCircuitboard
     - type: Lathe
-      staticRecipes:
+      dynamicRecipes:
         - FactoryEnergySword
         - FactoryEnergyDagger
         - FactoryDoubleBladedEnergySword
