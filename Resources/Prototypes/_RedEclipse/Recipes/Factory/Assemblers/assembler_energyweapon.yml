@@ -19,3 +19,19 @@
   completetime: 1
   materials: # TODO better recipe
     FactoryBasicParts : 1
+
+- type: latheRecipe
+  id: FactoryMakeshiftLaserPistol
+  result: WeaponMakeshiftLaser
+  completetime: 1
+  materials: # TODO better recipe
+    FactoryBasicCasings: 1
+    FactoryLaserComponents: 1
+
+- type: latheRecipe
+  id: FactoryLaserPistol
+  result: WeaponLaserGun
+  completetime: 1
+  materials: # TODO better recipe
+    FactoryWeaponCompactBody: 1
+    FactoryLaserComponents: 1

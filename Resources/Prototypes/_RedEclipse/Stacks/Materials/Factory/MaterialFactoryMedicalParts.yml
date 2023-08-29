@@ -9,6 +9,7 @@
         FactoryMedicalParts: 1
     - type: Stack
       stackType: FactoryMedicalParts
+      count: 5
 
 - type: entity
   parent: MaterialFactoryMedicalParts

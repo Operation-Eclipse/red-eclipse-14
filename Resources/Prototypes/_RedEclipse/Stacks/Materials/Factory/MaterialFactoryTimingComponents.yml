@@ -9,6 +9,7 @@
         FactoryTimingComponents: 1
     - type: Stack
       stackType: FactoryTimingComponents
+      count: 5
     - type: Sprite
       sprite: Objects/Devices/timer.rsi
       state: timer

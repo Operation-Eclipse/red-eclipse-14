@@ -7,13 +7,12 @@
     - type: Machine
       board: FactoryExplosiveAssemblerMachineCircuitboard
     - type: Lathe
-      staticRecipes:
+      dynamicRecipes:
         - FactoryEMPGrenade
         - FactoryExplosiveGrenade
         - FactoryExplodingPen
         - FactoryC4
         - FactoryMinibomb
         - FactoryTinybomb
-        - FactoryChinaLake
         - FactoryFragGrenade
         - FactoryBlastGrenade

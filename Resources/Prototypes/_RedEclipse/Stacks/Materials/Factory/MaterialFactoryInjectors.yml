@@ -9,6 +9,7 @@
         FactoryInjectors: 1
     - type: Stack
       stackType: FactoryInjectors
+      count: 5
     - type: Sprite
       sprite: Objects/Specific/Chemistry/syringe.rsi
       state: syringe_base0

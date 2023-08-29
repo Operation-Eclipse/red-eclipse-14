@@ -9,6 +9,7 @@
         FactoryMetalBlades: 1
     - type: Stack
       stackType: FactoryMetalBlades
+      count: 5
 
 - type: entity
   parent: MaterialFactoryMetalBlades

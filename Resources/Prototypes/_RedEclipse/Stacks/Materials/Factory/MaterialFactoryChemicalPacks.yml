@@ -9,6 +9,7 @@
         FactoryChemicalPacks: 1
     - type: Stack
       stackType: FactoryChemicalPacks
+      count: 5
 
 - type: entity
   parent: MaterialFactoryChemicalPacks

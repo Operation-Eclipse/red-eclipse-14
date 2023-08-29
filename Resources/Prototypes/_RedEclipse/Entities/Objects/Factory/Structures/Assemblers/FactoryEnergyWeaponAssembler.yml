@@ -1,0 +1,16 @@
+- type: entity
+  id: FactoryEnergyWeaponAssembler
+  parent: BaseFactoryMachine
+  name: factory energy weapon assembler
+  description: Official CyberSun-Energy-Weapon-Assembler, it is hot to the touch.
+  components:
+    - type: Sprite # placeholder
+    - type: Machine
+      board: FactoryEnergyWeaponAssemblerMachineCircuitboard
+    - type: Lathe
+      dynamicRecipes:
+        - FactoryEnergySword
+        - FactoryEnergyDagger
+        - FactoryDoubleBladedEnergySword
+        - FactoryMakeshiftLaserPistol
+        - FactoryLaserPistol

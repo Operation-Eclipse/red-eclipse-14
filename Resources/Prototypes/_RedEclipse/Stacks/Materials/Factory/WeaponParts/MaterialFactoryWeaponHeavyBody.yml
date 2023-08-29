@@ -9,6 +9,7 @@
         FactoryWeaponHeavyBody: 1
     - type: Stack
       stackType: FactoryWeaponHeavyBody
+      count: 1
 
 - type: entity
   parent: MaterialFactoryWeaponHeavyBody
@@ -27,7 +28,7 @@
   name: factory heavy body
   icon: { sprite: /Textures/Objects/Misc/monkeycube.rsi, state: cube } # placeholder
   spawn: FactoryWeaponHeavyBody
-  maxCount: 5
+  maxCount: 1
   itemSize: 1
 
 - type: material

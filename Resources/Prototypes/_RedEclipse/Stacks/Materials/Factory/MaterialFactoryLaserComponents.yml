@@ -9,6 +9,7 @@
         FactoryLaserComponents: 1
     - type: Stack
       stackType: FactoryLaserComponents
+      count: 5
 
 - type: entity
   parent: MaterialFactoryLaserComponents

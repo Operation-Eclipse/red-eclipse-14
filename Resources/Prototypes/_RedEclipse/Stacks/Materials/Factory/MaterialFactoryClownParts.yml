@@ -9,6 +9,7 @@
         FactoryClownParts: 1
     - type: Stack
       stackType: FactoryClownParts
+      count: 5
 
 - type: entity
   parent: MaterialFactoryClownParts

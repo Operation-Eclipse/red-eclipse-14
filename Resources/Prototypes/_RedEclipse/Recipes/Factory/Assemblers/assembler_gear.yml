@@ -4,39 +4,51 @@
   result: ClothingBeltSyndieHolster
   completetime: 1
   materials: # TODO better recipe
-    FactoryBasicParts : 1
+    Steel: 100
+    Cloth: 200
 
 - type: latheRecipe
   id: FactoryStealthBox
   result: StealthBox
   completetime: 1
   materials: # TODO better recipe
-    FactoryBasicParts : 1
+    Cloth: 300
+    FactorySimpleCircuits: 2
+    FactoryLaserComponents: 3
 
 - type: latheRecipe
   id: FactoryWebVest
   result: ClothingOuterVestWeb
   completetime: 1
   materials: # TODO better recipe
-    FactoryBasicParts : 1
+    FactoryBasicCasings: 2
+    Steel: 300
+    Cloth: 300
+
 
 - type: latheRecipe
   id: FactoryEmag
   result: Emag
   completetime: 1
   materials: # TODO better recipe
-    FactoryBasicParts : 1
+    FactorySimpleCircuits: 5
+    FactoryBasicCasings: 1
+    FactoryLaserComponents: 3
+    FactoryExplosiveTinyBombs: 1
 
 - type: latheRecipe
   id: FactoryVoiceMask
   result: ClothingMaskGasVoice
   completetime: 1
   materials: # TODO better recipe
-    FactoryBasicParts : 1
+    FactorySimpleCircuits: 1
+    Steel: 100
+    Cloth: 300
 
 - type: latheRecipe
   id: FactoryCyberSunPen
   result: CyberPen
   completetime: 1
   materials: # TODO better recipe
-    FactoryBasicParts : 1
+    FactoryBasicCasings : 1
+    FactoryLaserComponents: 1

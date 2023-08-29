@@ -9,6 +9,7 @@
         FactoryWeaponGunStock: 1
     - type: Stack
       stackType: FactoryWeaponGunStock
+      count: 1
 
 - type: entity
   parent: MaterialFactoryWeaponGunStock
@@ -27,7 +28,7 @@
   name: factory gun stock
   icon: { sprite: /Textures/Objects/Misc/monkeycube.rsi, state: cube } # placeholder
   spawn: FactoryWeaponGunStock
-  maxCount: 5
+  maxCount: 1
   itemSize: 1
 
 - type: material

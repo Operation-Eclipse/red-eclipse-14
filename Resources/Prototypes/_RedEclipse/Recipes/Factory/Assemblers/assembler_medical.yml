@@ -1,42 +1,34 @@
 #Factory Medical Assembler
 - type: latheRecipe
-  id: FactoryMacroBombImplanter
-  result: MacroBombImplanter
-  completetime: 1
-  materials: # TODO better recipe
-    FactoryBasicParts : 1
-
-- type: latheRecipe
   id: FactoryStorageImplanter
   result: StorageImplanter
   completetime: 1
   materials: # TODO better recipe
-    FactoryBasicParts : 1
-
-- type: latheRecipe
-  id: FactoryFreedomImplanter
-  result: FreedomImplanter
-  completetime: 1
-  materials: # TODO better recipe
-    FactoryBasicParts : 1
+    FactoryBasicCasings : 1
+    FactoryInjectors: 1
 
 - type: latheRecipe
   id: FactoryHypopenBox
   result: HypopenBox
   completetime: 1
   materials: # TODO better recipe
-    FactoryBasicParts : 1
+    FactoryBasicCasings : 1
+    FactoryInjectors: 1
+    FactoryMedicalParts: 1
 
 - type: latheRecipe
-  id: FactorySyndicateSmokesPacket
-  result: CigPackSyndicate
-  completetime: 1
+  id: FactoryInjector
+  result: FactoryInjector
+  completetime: 3
   materials: # TODO better recipe
-    FactoryBasicParts : 1
+    FactoryBasicCasings : 1
+    FactorySimpleCircuits : 1
+    FactoryMachineryParts : 1
+    FactoryMedicalParts: 1
 
 - type: latheRecipe
-  id: FactoryStimpack
-  result: Stimpack
-  completetime: 1
-  materials: # TODO better recipe
-    FactoryBasicParts : 1
+  id: FactoryChemicalPack
+  result: FactoryChemicalPack
+  completetime: 3
+  materials: # TODO way better recipe (waaaaay better)
+    FactoryMedicalParts: 1

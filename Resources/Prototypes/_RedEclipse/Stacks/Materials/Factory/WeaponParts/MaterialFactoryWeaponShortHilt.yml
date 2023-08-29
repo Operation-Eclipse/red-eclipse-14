@@ -9,6 +9,7 @@
         FactoryWeaponShortHilt: 1
     - type: Stack
       stackType: FactoryWeaponShortHilt
+      count: 1
 
 - type: entity
   parent: MaterialFactoryWeaponShortHilt
@@ -27,7 +28,7 @@
   name: short hilt
   icon: { sprite: /Textures/Objects/Misc/monkeycube.rsi, state: cube } # placeholder
   spawn: FactoryWeaponShortHilt
-  maxCount: 5
+  maxCount: 1
   itemSize: 1
 
 - type: material

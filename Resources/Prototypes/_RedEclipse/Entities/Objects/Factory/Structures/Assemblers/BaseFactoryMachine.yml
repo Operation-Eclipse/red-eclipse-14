@@ -25,6 +25,7 @@
         tags:
           - FactoryPart
           - Sheet
+          - RawMaterial
     - type: Lathe
       idleState: icon
       runningState: building
