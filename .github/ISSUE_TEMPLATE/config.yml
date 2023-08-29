@@ -1,7 +1,6 @@
 contact_links:
   - name: Report a Security Vulnerability
-    url: Report vulnerabilities personally by sending a dm to @stikyt on Discord
-    about: Please report security vulnerabilities privately so we can fix them before they are publicly disclosed.
+    about: Please report security vulnerabilities privately so we can fix them before they are publicly disclosed. Report vulnerabilities personally by sending a dm to @stikyt on Discord
   - name: Request a Feature
-    url: https://discord.gg/Ab9WzXJCmf
-    about: Submit feature requests on our Discord server (https://discord.gg/Ab9WzXJCmf).
+    url: https://github.com/Operation-Eclipse/red-eclipse-14/discussions/new?category=ideas
+    about: Submit feature requests on our Discussion forum or in Discord server (https://discord.gg/Ab9WzXJCmf).
