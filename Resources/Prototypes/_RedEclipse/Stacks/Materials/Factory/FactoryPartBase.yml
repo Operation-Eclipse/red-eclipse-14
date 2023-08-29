@@ -11,6 +11,7 @@
       state: cube
     - type: Item # placeholder
       sprite: /Textures/Objects/Misc/monkeycube.rsi
+      size: 1
     - type: Stack
       count: 5
       baseLayer: base
