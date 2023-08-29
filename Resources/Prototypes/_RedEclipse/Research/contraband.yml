@@ -15,20 +15,6 @@
   - WeaponCrusherDagger
 
 - type: technology
-  id: BasicPartManufacturing
-  name: Basic Contraband Parts
-  icon:
-    sprite: Objects/Misc/monkeycube.rsi
-    state: cube
-  discipline: Arsenal
-  tier: 1
-  cost: 2500
-  recipeUnlocks:
-  - FactorySimpleCircuit
-  - FactoryBasicCasing
-  - FactoryMetalBlade
-
-- type: technology
   id: BasicWeaponParts
   name: Basic Weapon Part manufacturing
   icon:

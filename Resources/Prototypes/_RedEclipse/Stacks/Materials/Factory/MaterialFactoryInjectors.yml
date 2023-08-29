@@ -9,7 +9,7 @@
         FactoryInjectors: 1
     - type: Stack
       stackType: FactoryInjectors
-      count: 1
+      count: 5
     - type: Sprite
       sprite: Objects/Specific/Chemistry/syringe.rsi
       state: syringe_base0
@@ -33,7 +33,7 @@
   name: factory injectors
   icon: { sprite: Objects/Specific/Chemistry/syringe.rsi, state: syringe_base0 }
   spawn: FactoryInjector
-  maxCount: 1
+  maxCount: 5
   itemSize: 1
 
 - type: material

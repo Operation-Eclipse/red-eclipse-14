@@ -9,7 +9,7 @@
         FactoryExplosivePayloads: 1
     - type: Stack
       stackType: FactoryExplosivePayloads
-      count: 3
+      count: 5
     - type: Sprite
       sprite: Objects/Devices/payload.rsi
       state: payload-explosive-armed
@@ -33,7 +33,7 @@
   name: factory explosive payloads
   icon: { sprite: Objects/Devices/payload.rsi, state: payload-explosive-armed }
   spawn: FactoryExplosivePayload
-  maxCount: 3
+  maxCount: 5
   itemSize: 1
 
 - type: material

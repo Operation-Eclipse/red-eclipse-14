@@ -9,7 +9,7 @@
         FactoryMetalBlades: 1
     - type: Stack
       stackType: FactoryMetalBlades
-      count: 1
+      count: 5
 
 - type: entity
   parent: MaterialFactoryMetalBlades
@@ -28,7 +28,7 @@
   name: factory metal blades
   icon: { sprite: /Textures/Objects/Misc/monkeycube.rsi, state: cube } # placeholder
   spawn: FactoryMetalBlade
-  maxCount: 1
+  maxCount: 5
   itemSize: 1
 
 - type: material

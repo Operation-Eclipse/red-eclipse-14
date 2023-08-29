@@ -9,7 +9,7 @@
         FactoryChemicalPacks: 1
     - type: Stack
       stackType: FactoryChemicalPacks
-      count: 3
+      count: 5
 
 - type: entity
   parent: MaterialFactoryChemicalPacks
@@ -28,7 +28,7 @@
   name: factory chemical packs
   icon: { sprite: /Textures/Objects/Misc/monkeycube.rsi, state: cube } # placeholder
   spawn: FactoryChemicalPack
-  maxCount: 3
+  maxCount: 5
   itemSize: 1
 
 - type: material
