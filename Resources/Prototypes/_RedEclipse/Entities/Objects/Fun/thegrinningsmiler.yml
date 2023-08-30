@@ -1,0 +1,58 @@
+- type: entity
+  name: the grinning smiler
+  id: TheGrinningSmiler
+  parent: SimpleSpaceMobBase
+  components:
+    - type: InputMover
+    - type: MobMover
+    - type: HTN
+      rootTask:
+        task: DragonCarpCompound
+    - type: NpcFactionMember
+      factions:
+        - SimpleHostile
+    - type: Sprite
+      drawdepth: Mobs
+      sprite: _RedEclipse/Objects/Fun/thegrinningsmiler32.rsi
+      state: icon
+    - type: CombatMode
+    - type: Physics
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape:
+            !type:PhysShapeCircle
+            radius: 0.40
+          density: 80
+          mask:
+            - FlyingMobMask
+          layer:
+            - FlyingMobLayer
+    - type: MobState
+    - type: MobThresholds
+      thresholds:
+        0: Alive
+        750: Dead
+    - type: Stamina
+      critThreshold: 500
+    - type: MeleeWeapon
+      altDisarm: false
+      hidden: true
+      angle: 0
+      animation: WeaponArcBite
+      soundHit:
+        path: /Audio/Effects/bite.ogg
+      damage:
+        types:
+          Blunt: 50000
+          Heat: 50000
+    - type: GhostRole
+      allowMovement: true
+      name: The Grinning Smiler
+      description: Smile and Grin, until the job is done.
+    - type: GhostTakeoverAvailable
+    - type: MovementSpeedModifier
+      baseWalkSpeed: 0.2
+      baseSprintSpeed: 0.3
+      weightlessModifier: 5
+    - type: PointLight
