@@ -1,0 +1,19 @@
+- type: entity
+  id: FactoryClownAssembler
+  parent: BaseFactoryMachine
+  name: factory clown assembler
+  description: Not official in the slightest, it is held together with glitter glue.
+  components:
+    - type: Sprite # placeholder
+    - type: Machine
+      board: FactoryClownAssemblerMachineCircuitboard
+    - type: Lathe
+      staticRecipes:
+        - FactoryRiggedBoxingGloves
+        - FactorySyndicateSoap
+        - FactoryFakeNuclearDisk
+        - FactoryFakeCapGun
+        - FactoryClownCostumeDuffleBag
+        - FactorySyndieBalloon
+        - FactoryExplosiveBananaPeel
+        - FactoryExplosiveWetFloorSign

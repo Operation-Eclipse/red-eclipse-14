@@ -1,0 +1,17 @@
+- type: entity
+  id: FactoryMedicalAssembler
+  parent: BaseFactoryMachine
+  name: factory medical assembler
+  description: Official CyberSun-Medical-Assembler, its spotless.
+  components:
+    - type: Sprite # placeholder
+    - type: Machine
+      board: FactoryMedicalAssemblerMachineCircuitboard
+    - type: Lathe
+      staticRecipes:
+        - FactoryMacroBombImplanter
+        - FactoryStorageImplanter
+        - FactoryFreedomImplanter
+        - FactoryHypopenBox
+        - FactorySyndicateSmokesPacket
+        - FactoryStimpack

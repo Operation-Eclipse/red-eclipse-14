@@ -1,0 +1,19 @@
+- type: entity
+  id: FactoryExplosiveAssembler
+  parent: BaseFactoryMachine
+  name: factory explosive assembler
+  description: Official CyberSun-Explosive-Assembler, stand back.
+  components:
+    - type: Machine
+      board: FactoryExplosiveAssemblerMachineCircuitboard
+    - type: Lathe
+      staticRecipes:
+        - FactoryEMPGrenade
+        - FactoryExplosiveGrenade
+        - FactoryExplodingPen
+        - FactoryC4
+        - FactoryMinibomb
+        - FactoryTinybomb
+        - FactoryChinaLake
+        - FactoryFragGrenade
+        - FactoryBlastGrenade

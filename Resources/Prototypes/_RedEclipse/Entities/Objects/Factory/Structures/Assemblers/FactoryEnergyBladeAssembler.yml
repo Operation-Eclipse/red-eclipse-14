@@ -1,0 +1,14 @@
+- type: entity
+  id: FactoryEnergyBladeAssembler
+  parent: BaseFactoryMachine
+  name: factory energy blade assembler
+  description: Official CyberSun-EnergyBlade-Assembler, it is hot to the touch.
+  components:
+    - type: Sprite # placeholder
+    - type: Machine
+      board: FactoryEnergyBladeAssemblerMachineCircuitboard
+    - type: Lathe
+      staticRecipes:
+        - FactoryEnergySword
+        - FactoryEnergyDagger
+        - FactoryDoubleBladedEnergySword

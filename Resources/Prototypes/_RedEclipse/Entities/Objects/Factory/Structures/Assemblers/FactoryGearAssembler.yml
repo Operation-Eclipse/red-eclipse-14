@@ -1,0 +1,17 @@
+- type: entity
+  id: FactoryGearAssembler
+  parent: BaseFactoryMachine
+  name: factory gear assembler
+  description: Official CyberSun-Gear-Assembler, the gears run smoothly.
+  components:
+    - type: Sprite # placeholder
+    - type: Machine
+      board: FactoryGearAssemblerMachineCircuitboard
+    - type: Lathe
+      staticRecipes:
+        - FactoryShoulderHolster
+        - FactoryStealthBox
+        - FactoryWebVest
+        - FactoryEmag
+        - FactoryVoiceMask
+        - FactoryCyberSunPen

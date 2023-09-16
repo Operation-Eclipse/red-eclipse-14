@@ -1,0 +1,21 @@
+- type: entity
+  id: FactoryFirearmAssembler
+  parent: BaseFactoryMachine
+  name: factory firearm assembler
+  description: Official CyberSun-Firearm-Assembler, it smells like freedom.
+  components:
+    - type: Sprite # placeholder
+    - type: Machine
+      board: FactoryFirearmAssemblerMachineCircuitboard
+    - type: Lathe
+      staticRecipes:
+        - FactoryMk58
+        - FactoryCobra
+        - FactoryMakeshiftLaserPistol
+        - FactoryLaserPistol
+        - FactoryDoubleBarreledShotgun
+        - FactoryAKMS
+        - FactoryC20r
+        - FactoryL6Saw
+        - FactoryBulldog
+        - FactoryHristov
