@@ -1,0 +1,29 @@
+- type: entity
+  parent: ClothingOuterWinterCoat
+  id: ClothingOuterWinterGreytide
+  name: greytide winter coat
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/OuterClothing/WinterCoats/greytide-coat.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/OuterClothing/WinterCoats/greytide-coat.rsi
+
+- type: entity
+  parent: ClothingOuterWinterCoat
+  id: ClothingOuterWinterGreytideCommander
+  name: greytide commander winter coat
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/OuterClothing/WinterCoats/greytide-commander-coat.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/OuterClothing/WinterCoats/greytide-commander-coat.rsi
+
+- type: entity
+  parent: ClothingOuterWinterCoat
+  id: ClothingOuterWinterGreytideJudge
+  name: greytide judge winter coat
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/OuterClothing/WinterCoats/greytide-judge-coat.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/OuterClothing/WinterCoats/greytide-judge-coat.rsi

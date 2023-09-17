@@ -1,0 +1,26 @@
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackGreytide
+  name: greytide backpack
+  description: It's a very grey backpack.
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/Back/Greytide/backpack.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelGreytide
+  name: greytide satchel
+  description: A robust satchel for violence related needs.
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/Back/Greytide/satchel.rsi
+
+- type: entity
+  parent: ClothingBackpackGreytide
+  id: ClothingBackpackDuffelGreytide
+  name: greytide duffel bag
+  description: A large duffel bag for holding extra greytide related goods.
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/Back/Greytide/duffel.rsi

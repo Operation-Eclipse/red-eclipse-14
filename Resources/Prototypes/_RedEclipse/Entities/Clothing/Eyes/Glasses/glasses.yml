@@ -1,0 +1,16 @@
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesGreytide
+  name: greytide sunglasses
+  description: A pair of greytide milita sunglasses, they said it couldn't be done.
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/Eyes/Glasses/greytideglasses.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/Eyes/Glasses/greytideglasses.rsi
+  - type: EyeProtection
+    protectionTime: 5
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon

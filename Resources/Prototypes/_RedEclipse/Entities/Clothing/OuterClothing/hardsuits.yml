@@ -1,0 +1,116 @@
+#GreyTide Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitGreytide
+  name: greytide hardsuit
+  description: A greytide hardsuit, protects against the hazards of space, as well as the hazards of bullets.
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/OuterClothing/Hardsuits/greytide.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/OuterClothing/Hardsuits/greytide.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.8
+        Caustic: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 0.75
+    sprintModifier: 0.75
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitGreytide
+
+#GreyTide Alternate Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitGreytideAlt
+  name: greytide hardsuit
+  description: A greytide hardsuit, protects against the hazards of space, as well as the hazards of bullets.
+  suffix: Alternate
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/OuterClothing/Hardsuits/greytide-alternate.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/OuterClothing/Hardsuits/greytide-alternate.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.8
+        Caustic: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 0.75
+    sprintModifier: 0.75
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitGreytide
+
+#GreyTide Commander Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitGreytideCommander
+  name: greytide commander hardsuit
+  description: A greytide hardsuit, protects against the hazards of space, as well as the hazards of bullets. this one is adorned with gold.
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/OuterClothing/Hardsuits/greytide-commander.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/OuterClothing/Hardsuits/greytide-commander.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Caustic: 0.6
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitGreytideCommander
+
+#GreyTide Judge Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitGreytideJudge
+  name: greytide judge hardsuit
+  description: A greytide judge hardsuit, perfect for dispensing justice.
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/OuterClothing/Hardsuits/greytide-judge.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/OuterClothing/Hardsuits/greytide-judge.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.5
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.55
+    sprintModifier: 0.55
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitGreytideJudge

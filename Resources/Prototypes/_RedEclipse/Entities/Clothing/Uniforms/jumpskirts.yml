@@ -1,0 +1,54 @@
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtGreytideSoldier
+  name: greytide soldier's jumpskirt
+  description: A greytide soldier's jumpskirt, looking at it is making you feel violent.
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpskirt/greytide-soldier.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpskirt/greytide-soldier.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtGreytideCommander
+  name: greytide commander's jumpskirt
+  description: A greytide commander's jumpskirt, looking at it is making you feel powerful.
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpskirt/greytide-commander.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpskirt/greytide-commander.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtGreytideCommanderFormalLongcoat
+  name: greytide commander's formal longcoat
+  description: A greytide commander's longcoat, looking at it is making you feel like you could rule the world.
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpskirt/greytide-commander-formal-longcoat.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpskirt/greytide-commander-formal-longcoat.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtJuggernaut
+  name: juggernaut jumpsuit
+  description: A juggernaut's jumpskirt, rip and tear girls, rip and tear.
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/juggernaut.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/juggernaut.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtGreytideJudge
+  name: greytide judge jumpskirt
+  description: A greytide judge's jumpskirt, looking at it is making you feel wise.
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/greytide-judge.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/greytide-judge.rsi

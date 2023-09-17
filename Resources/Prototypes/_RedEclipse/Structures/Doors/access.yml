@@ -1,0 +1,62 @@
+- type: entity
+  parent: AirlockGreytide
+  id: AirlockGreytideLocked
+  suffix: Greytide, Locked
+  components:
+  - type: AccessReader
+    access: [["Security"]]
+  - type: Wires
+    LayoutId: AirlockSecurity
+
+- type: entity
+  parent: AirlockGreytide
+  id: AirlockGreytideBrigLocked
+  suffix: Brig, Locked
+  components:
+  - type: AccessReader
+    access: [["Brig"]]
+  - type: Wires
+    LayoutId: AirlockSecurity
+
+- type: entity
+  parent: AirlockGreytide
+  id: AirlockGreytideArmoryLocked
+  suffix: Armory, Locked
+  components:
+  - type: AccessReader
+    access: [["Armory"]]
+  - type: Wires
+    LayoutId: AirlockArmory
+
+- type: entity
+  parent: AirlockGreytide
+  id: AirlockGreytideVaultLocked
+  suffix: Vault, Locked
+  components:
+  - type: AccessReader
+    access: [["Security", "Command"]]
+
+#Glass
+- type: entity
+  parent: AirlockGreytideGlass
+  id: AirlockGreytideGlassLocked
+  suffix: Greytide, Locked
+  components:
+  - type: AccessReader
+    access: [["Security"]]
+
+- type: entity
+  parent: AirlockGreytideGlass
+  id: AirlockGreytideBrigGlassLocked
+  suffix: Brig, Locked
+  components:
+  - type: AccessReader
+    access: [["Brig"]]
+
+- type: entity
+  parent: AirlockGreytideGlass
+  id: AirlockGreytideArmoryGlassLocked
+  suffix: Armory, Locked
+  components:
+  - type: AccessReader
+    access: [["Armory"]]

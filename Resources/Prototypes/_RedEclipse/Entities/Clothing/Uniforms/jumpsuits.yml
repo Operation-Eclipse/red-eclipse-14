@@ -8,3 +8,80 @@
       sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/syndicate-agent-initiate.rsi
     - type: Clothing
       sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/syndicate-agent-initiate.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitGreytideSoldier
+  name: greytide soldier jumpsuit
+  description: A greytide soldier's jumpsuit, looking at it is making you feel violent.
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/greytide-soldier.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/greytide-soldier.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitGreytideJudge
+  name: greytide judge jumpsuit
+  description: A greytide judge's jumpsuit, looking at it is making you feel wise.
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/greytide-judge.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/greytide-judge.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitGreytideCommander
+  name: greytide commander jumpsuit
+  description: A greytide commander's jumpsuit, looking at it is making you feel powerful.
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/greytide-commander.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/greytide-commander.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitGreytideCommanderFormal
+  name: greytide commander's formal jumpsuit
+  description: A greytide commander's formal jumpsuit, it radiates power and control.
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/greytide-commander-formal.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/greytide-commander-formal.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitGreytider
+  name: greytider jumpsuit
+  description: A greytider's jumpsuit, wearing this is worse than having a big floating "KILL" sign above your head.
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/greytider.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/greytider.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitJuggernaut
+  name: juggernaut jumpsuit
+  description: A juggernaut's jumpsuit, rip and tear boys, rip and tear.
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/juggernaut.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/juggernaut.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitGreytideERT
+  name: greytide ERT jumpsuit
+  description: A greytide ERT response team jumpsuit. you really don't want to be the one wearing this.
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/greytide-ert.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/Uniforms/Jumpsuit/greytide-ert.rsi

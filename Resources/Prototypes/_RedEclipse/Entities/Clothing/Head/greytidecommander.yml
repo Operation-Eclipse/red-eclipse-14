@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHeadBaseButcherable
+  id: ClothingHeadHatGreytideCommander
+  name: greytide commander hat
+  description: "GreyTide Private Militia commander hat, a symbol of immense power and status"
+  components:
+  - type: Sprite
+    sprite: _RedEclipse/Clothing/Head/Hats/greytide-commander.rsi
+  - type: Clothing
+    sprite: _RedEclipse/Clothing/Head/Hats/greytide-commander.rsi
